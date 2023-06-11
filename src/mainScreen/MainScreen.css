@@ -1,0 +1,233 @@
+.mainScreen {
+    background-color: #DADEE0;
+    width: 960px;
+    display: block;
+    position: fixed;
+    left: 50%;
+    margin-left: -500px;
+    top: 0;
+    bottom: 0;
+}
+
+.menuBar {
+    width: 100px;
+    background-color: #4A4E58;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.mainBtnStyle {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin: 2px 15px 15px 5px;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    height: 46px;
+    width: 90px;
+    line-height: 46px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #444;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+    cursor: pointer;
+    user-select: none;
+    appearance: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    transition: box-shadow 0.2s;
+}
+
+.mainBtnStyle:focus-visible {
+    border: 1px solid #4c51f9;
+    outline: none;
+}
+
+.mainBtnStyle:hover {
+    transition: all 0.2s;
+
+}
+
+.mainBtnStyle:active {
+    background-color: #808080;
+}
+
+.addContact {
+
+}
+
+.buttonKey {
+
+}
+
+.buttonSetting {
+
+}
+
+.contactList {
+    background-color: #DADEE0;
+    width: 260px;
+    display: inline-block;
+    vertical-align: top;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 100px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.contactList li {
+    width: 260px;
+    height: 38px;
+    border: 1px solid #DADEE0;
+    background-color: #ebedf0;
+    font-family: Roboto, sans-serif;
+    word-break: break-all;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.contactList li.selected {
+    background: #1ca1c1;
+    color: #f1f1f1;
+
+}
+
+.contactList li.selected:hover {
+    background: #1ca1c1;
+    color: #000000;
+}
+
+.contactList li:hover {
+    background-color: #ffffff;
+}
+
+.textInLi {
+    display: inline-block;
+    width: 220px;
+}
+
+.btnInLi {
+    display: inline-block;
+
+}
+
+.btnEdit {
+    background-image: url("61456.png");
+    background-size: 20px 20px;
+    width: 20px;
+    height: 20px;
+    border: 0;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.btnEdit:hover {
+
+}
+
+.btnEdit:active {
+
+}
+
+.conversation {
+    width: 600px;
+    background-color: #DADEE0;
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.contactInfo {
+    width: 600px;
+    height: 49px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    border: 1px solid #DADEE0;
+}
+
+.chat {
+    width: 600px;
+    background-color: white;
+    overflow-y: auto;
+    position: absolute;
+    top: 50px;
+    bottom: 150px;
+    font-family: Roboto, sans-serif;
+}
+
+.message {
+    max-width: 595px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.message.from {
+    background: #dedede;
+    color: black;
+    right: 10px;
+    width: 80%;
+    float: right;
+    padding: 5px;
+}
+
+.message.to {
+    background: #1ca1c1;
+    color: white;
+    left: 10px;
+    width: 80%;
+    float: left;
+    padding: 5px;
+}
+
+.messageText {
+    margin: 5px;
+}
+
+.messageDate {
+    margin: 5px;
+}
+
+.newMessageControl {
+    width: 600px;
+    height: 150px;
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    border: 1px solid #DADEE0;
+}
+
+.newMessageControl textarea {
+    width: 575px;
+    height: 100px;
+    background-color: #FFFFFF;
+    resize: none;
+    bottom: 0;
+    border: 1px solid #DADEE0;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: inline;
+    font-family: Roboto, sans-serif;
+}
+
+

@@ -1,0 +1,70 @@
+.AddContactScreen {
+    background-color: #f1f1f1;
+    padding:  16px;
+    width: 400px;
+    margin: 5% auto 0;
+}
+.btnBlockAdd{
+    margin-left: 30px;
+
+}
+.addBtnStyle {
+    width: 150px;
+    background-color: #1ca1c1;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 8px 10px;
+    cursor: pointer;
+    display: inline;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    border-radius: 5px;
+}
+.cancelBtnStyle {
+    width: 150px;
+    background-color: #1ca1c1;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 8px 10px;
+    cursor: pointer;
+    display: inline;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    border-radius: 5px;
+}
+.keyTextAreaAdd{
+    width: 392px;
+    height: 450px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    display: inline;
+    margin: 8px 4px;
+    font-family: Roboto, sans-serif;
+}
+.nameInputAdd {
+    width: 392px;
+    height: 20px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    display: inline;
+    margin: 8px 4px;
+    font-family: Roboto, sans-serif;
+}
+.textInAdd {
+    font-family: Roboto, sans-serif;
+    display: block;
+    text-align: center;
+    margin: 8px 4px;
+}

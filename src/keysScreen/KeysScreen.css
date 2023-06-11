@@ -1,0 +1,59 @@
+.KeysScreen {
+    background-color: #f1f1f1;
+    padding: 16px;
+    width: 800px;
+    margin: 5% auto 0;
+
+}
+
+.blockPrivateKey {
+    display: inline-block;
+}
+
+.blockPrivateKey textarea {
+    filter: blur(5px);
+}
+.blockPrivateKey :hover{
+    filter: blur(0px);
+}
+
+.keysAreaStyle {
+    margin: 0 auto;
+    width: 800px;
+    font-family: Roboto, sans-serif;
+}
+
+.keysAreaStyle textarea {
+    width: 392px;
+    height: 450px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    display: inline;
+    margin: 8px 4px;
+    font-family: Roboto, sans-serif;
+}
+
+.keysBtnStyle {
+    width: 800px;
+    margin: 0 auto;
+    font-family: Roboto, sans-serif;
+}
+
+.keysBtnStyle button {
+    width: 300px;
+    background-color: #1ca1c1;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 8px 50px;
+    cursor: pointer;
+    display: inline;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    border-radius: 5px;
+}
